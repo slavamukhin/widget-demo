@@ -5,8 +5,17 @@
   <title>Weather Widget Demo</title>
 </head>
 <body>
-  <h1>Weather Widget Demo</h1>
-  <weather-widget></weather-widget>
+  <div style="display: flex; align-items: center; justify-content: space-between;">
+    <div>
+      <h2>Weather-widget demo, infinity count of city</h2>
+      <weather-widget></weather-widget>
+    </div>
+
+    <div>
+      <h2>Weather-widget demo max 3 city</h2>
+      <weather-widget max="3"></weather-widget>
+    </div>
+  </div>
   <script type="text/javascript" src="https://slavamukhin.github.io/widget-test/weather-widget.iife.js"></script>
 </body>
 </html>
